@@ -28,7 +28,7 @@ The game is implemented in C++ and utilizes the SFML (Simple and Fast Multimedia
 Before running the game, ensure that you have the following dependencies installed:
 
 - C++ compiler
-- SFML library
+- SFML Library
 
 ## Getting Started
 
