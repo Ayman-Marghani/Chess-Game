@@ -35,13 +35,13 @@ Before running the game, ensure that you have the following dependencies install
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Ayman-Talat/Chess-Game.git
    ```
 
 2. Compile the code using CMake:
 
    ```shell
-   cd your-repo/
+   cd Chess-Game/
    cmake .
    make
    ```
@@ -49,5 +49,5 @@ Before running the game, ensure that you have the following dependencies install
 3. Run the game:
 
    ```shell
-   ./your-game-executable
+   ./Chess-Game.exe
    ```
