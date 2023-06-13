@@ -19,6 +19,7 @@ The game is implemented in C++ and utilizes the SFML (Simple and Fast Multimedia
 
 ## Game Features
 
+
 - Two game modes: Player vs. Player (PvP) and Player vs. CPU.
 - In the CPU mode, the game utilizes the minimax algorithm with a depth of 2 and optimized with alpha-beta pruning.
 - Support for pawn promotion and castling.
