@@ -1,7 +1,7 @@
 # Chess-Game
 
 This chess game project was developed as part of the Algorithms course in the second term of the second year at Egypt University of Informatics. 
-The project team consisted of Ayman Talat, Ahmed Waleed, Yassin Elsayed, and Mahmoud Ibrahim.
+The project team consisted of Ayman Marghani, Ahmed Waleed, Yassin Elsayed, and Mahmoud Ibrahim.
 The game is implemented in C++ and utilizes the SFML (Simple and Fast Multimedia Library) as the GUI library. The development was done using the CLion IDE.
 
 ## Project Structure
@@ -36,7 +36,7 @@ Before running the game, ensure that you have the following dependencies install
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/Ayman-Talat/Chess-Game.git
+   git clone https://github.com/Ayman-Marghani/Chess-Game.git
    ```
 
 2. Compile the code using CMake:
