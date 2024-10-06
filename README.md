@@ -1,54 +1,92 @@
 # Chess-Game
 
-This chess game project was developed as part of the Algorithms course in the second term of the second year at Egypt University of Informatics. 
-The project team consisted of Ayman Marghani, Ahmed Waleed, Yassin Elsayed, and Mahmoud Ibrahim.
-The game is implemented in C++ and utilizes the SFML (Simple and Fast Multimedia Library) as the GUI library. The development was done using the CLion IDE.
+## Overview
+
+Chess-Game is an advanced chess implementation developed as part of the Algorithms course at Egypt University of Informatics. This project showcases a fully functional chess game with both Player vs. Player (PvP) and Player vs. CPU modes, demonstrating the practical application of algorithmic concepts in game development.
+
+## Key Features
+
+- **Dual Game Modes**: 
+  - Player vs. Player (PvP) for classic two-player matches
+  - Player vs. CPU for solo play against an AI opponent
+- **Advanced AI**: 
+  - Utilizes the minimax algorithm with a depth of 2
+  - Optimized with alpha-beta pruning for efficient decision-making
+- **Complete Chess Ruleset**:
+  - Supports all standard chess moves
+  - Includes special moves like pawn promotion and castling
+- **Graphical User Interface**: 
+  - Built using SFML (Simple and Fast Multimedia Library) for a visually appealing and interactive experience
 
 ## Project Structure
 
-- `Board.cpp`, `Board.h`: Implementations and declarations of the chess board functionality.
-- `Game.cpp`, `Game.h`: Implementations and declarations of the main game logic.
-- `Graveyard.cpp`, `Graveyard.h`: Implementations and declarations of the graveyard (captured pieces) functionality.
-- `GUI.h`, `GUI.cpp`: Implementation of the graphical user interface using SFML.
-- `Position.h`, `Position.cpp`: Implementations and declarations of the chess positions.
-- `Tile.h`, `Tile.cpp`: Implementations and declarations of the chess tiles on the board.
-- `Troop.cpp`, `Troop.h`: Implementations and declarations of the chess troops (pieces).
-- `main.cpp`: The main entry point of the program.
-- `CMakeLists.txt`: The CMake build configuration file.
-- `.idea/`, `cmake-build-debug/`: Folders related to the IDE and build system.
+The project is organized into several key components:
 
-## Game Features
-
-
-- Two game modes: Player vs. Player (PvP) and Player vs. CPU.
-- In the CPU mode, the game utilizes the minimax algorithm with a depth of 2 and optimized with alpha-beta pruning.
-- Support for pawn promotion and castling.
+- `Board.cpp`, `Board.h`: Define the chess board and its operations
+- `Game.cpp`, `Game.h`: Contain the core game logic and flow control
+- `Graveyard.cpp`, `Graveyard.h`: Manage captured pieces
+- `GUI.h`, `GUI.cpp`: Handle the graphical user interface using SFML
+- `Position.h`, `Position.cpp`: Represent and manipulate chess positions
+- `Tile.h`, `Tile.cpp`: Define individual tiles on the chess board
+- `Troop.cpp`, `Troop.h`: Implement chess pieces (troops) and their movements
+- `main.cpp`: Serves as the entry point of the application
+- `CMakeLists.txt`: Configures the CMake build system
 
 ## Prerequisites
 
-Before running the game, ensure that you have the following dependencies installed:
+To run Chess-Game, ensure you have the following installed:
 
-- C++ compiler
-- SFML Library
+- C++ compiler (supporting C++11 or later)
+- SFML Library (version 2.5 or later recommended)
+- CMake (version 3.10 or later)
 
-## Getting Started
+## Building and Running
 
 1. Clone the repository:
-
-   ```shell
+   ```bash
    git clone https://github.com/Ayman-Marghani/Chess-Game.git
    ```
 
-2. Compile the code using CMake:
 
-   ```shell
-   cd Chess-Game/
-   cmake .
-   make
+2. Navigate to the project directory:
+   ```bash
+   cd Chess-Game
    ```
 
-3. Run the game:
-
-   ```shell
-   ./Chess-Game.exe
+3. Create a build directory and navigate into it:
+   ```bash
+   mkdir build && cd build
    ```
+
+4. Generate the build files with CMake:
+   ```bash
+   cmake ..
+   ```
+
+5. Build the project:
+   ```bash
+   cmake --build .
+   ```
+
+6. Run the game:
+   ```bash
+   ./Chess-Game
+   ```
+
+## Gameplay Instructions
+- Use the mouse to select and move chess pieces
+- In PvP mode, players take turns making moves
+- In CPU mode, make your move and the AI will respond automatically
+- The game enforces all standard chess rules, including check and checkmate
+
+## Development Team
+This project was developed by:
+
+- Ayman Marghani
+- Ahmed Waleed
+- Yassin Elsayed
+- Mahmoud Ibrahim
+
+
+## Contributing
+We welcome contributions to improve Chess-Game. Please feel free to fork the repository, make changes, and submit pull requests.
