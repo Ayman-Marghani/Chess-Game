@@ -87,6 +87,8 @@ This project was developed by:
 - Yassin Elsayed
 - Mahmoud Ibrahim
 
+## Note on Commit History
+This repository contains a single commit because we initially developed the project in a different repository. Due to encountered issues, we migrated the codebase here, resulting in a consolidated commit history.
 
 ## Contributing
 We welcome contributions to improve Chess-Game. Please feel free to fork the repository, make changes, and submit pull requests.
