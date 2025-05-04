@@ -4,6 +4,14 @@
 
 Chess-Game is an advanced chess implementation developed as part of the Algorithms course at Egypt University of Informatics. This project showcases a fully functional chess game with both Player vs. Player (PvP) and Player vs. CPU modes, demonstrating the practical application of algorithmic concepts in game development.
 
+## Trailer
+
+
+
+https://github.com/user-attachments/assets/81ddf00b-c45a-4342-b0dd-18fb6fcb0fe5
+
+
+
 ## Key Features
 
 - **Dual Game Modes**: 
